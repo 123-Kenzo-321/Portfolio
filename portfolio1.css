@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E0F7FA; 
+  color: #01579B; 
+  line-height: 1.6;
+}
+
+header { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #0288D1; 
+  border-bottom: 2px solid #0277BD;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  border-radius: 50%;
+  margin-right: 15px; 
+}
+
+h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .profile {
+    width: 100%;
+    height: auto;
+  }
+  .additional-content {
+    width: 100%;
+  }
+}
+.profile {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: white; 
+  border: 2px solid #039BE5;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#prpic {
+  border-radius: 50%;
+  border: 3px solid #0288D1;
+  margin-top: 50px;
+}
+
+.profile p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile h2, .profile p {
+  margin: 0;
+  padding: 0;
+}
+
+.profile h2{
+  font-size: 30px;
+}
+
+.profile p{
+  font-size: 20px;
+}
+
+.profile a {
+  margin: 5px;
+  text-decoration: none;
+  color: #01579B;
+}
+
+.profile a:hover {
+  color: #0288D1;
+}
+
+
+
+.additional-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  padding: 20px;
+}
+
+.video-container {
+  background-color: #BBDEFB; 
+  padding: 10px;
+  border: 2px solid #039BE5; 
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.map-container {
+  background-color: #BBDEFB;
+  padding: 10px;
+  border: 2px solid #039BE5;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+
+.emolist {
+  background-color: #B3E5FC; 
+  padding: 15px;
+  border: 2px solid #039BE5; 
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.emolist p {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.emolist ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.emolist li {
+  font-size: 30px;
+}
+
